@@ -67,7 +67,7 @@ public class CreateFragment extends Fragment {
             String foo = "";
 
 
-          Long id =   database.getTvShowDao().insertTvShowMT(show);
+         Long id =   database.getTvShowDao().insertTvShowMT(show);
 
         //    Observable.fromCallable(() -> database.getTvShowDao().insertTvShow())
 
